@@ -1,0 +1,53 @@
+/*
+ Theme Name:   (ISC)2 Chapter Theme
+ Theme URI:    https://isc2-austin-chapter.org/isc2-chapter-theme/
+ Description:  (ISC)2 Chapter Theme
+ Author:       Bart Lauwers
+ Author URI:   https://isc2-austin-chapter.org/
+ Template:     twentyseventeen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         isc2, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  isc2-chapter-theme
+*/
+.twentyseventeen-front-page article:not(.has-post-thumbnail):not(:first-child) {
+    border-top: none;
+}
+.site-header, .single-featured-image-header {
+    background-color: #ffffff;
+}
+.site-footer {
+    border-top: 3px solid #9fcd2b;
+}
+.navigation-top {
+    border-top: none;
+    border-bottom: 5px solid #006f53;
+}
+.social-navigation a {
+    background-color: #006f53;
+}
+.social-navigation a:hover, .social-navigation a:focus {
+    background-color: #9fcd2b;
+}
+table {
+    table-layout: fixed;
+    border: none;
+}
+th {
+    background-color: #9fcd2b;
+    color: white;
+}
+th:first-child, td:first-child {
+    padding-left: 5px;
+}
+body, button, input, select, textarea {
+    font-family: Open Sans, Helvetica, Arial;
+}
+.page .panel-content .entry-title {
+    font-size: 34px;
+    font-weight: 400;
+}
+.custom-logo-link img {
+    max-height: 150px;
+}
